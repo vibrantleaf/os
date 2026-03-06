@@ -16,7 +16,7 @@ Here is the changes that I have made in this os image derived from bazzite with 
 Sellect Your formfactor:
 <details>
 <summary>Desktop or Laptop</summary>
-Select your Primary Video Card Vendor:
+Select Your Video Card's Vendor:
 <details>
 <summary>AMD</summary>
 <code>
