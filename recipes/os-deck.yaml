@@ -1,0 +1,22 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+name: os-deck
+description: My Custom Build of Universal Blue's Bazzite Image
+base-image: ghcr.io/ublue-os/bazzite-deck-gnome
+image-version: stable
+modules:
+  - type: files
+    files:
+      - source: system
+        destination: /
+  - type: dnf
+    install:
+      packages:
+        - mimalloc
+        - gamemode
+  - type: script
+    snippets:
+     - "git clone https://github.com/root0emir/ArchLinux-GamingPerformanceTuning.git /tmp/com.github.root0emir.ArchLinux-GamingPerformanceTuning"
+     - "cat /tmp/com.github.root0emir.ArchLinux-GamingPerformanceTuning/Settings/sysctl.conf | tee /usr/lib/sysctl.d/com-github-root0emir-archLinux-gaming-performance-tuning.conf"
+     - "rm -rfv /tmp/com.github.root0emir.ArchLinux-GamingPerformanceTuning"
+  - type: signing
