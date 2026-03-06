@@ -20,7 +20,12 @@ modules:
         - gamemode
   - type: script
     snippets:
-     - "git clone https://github.com/root0emir/ArchLinux-GamingPerformanceTuning.git /tmp/com.github.root0emir.ArchLinux-GamingPerformanceTuning"
+     #
+     - "git clone https://github.com/root0emir/ArchLinux-GamingPerformanceTuning.git /tmp/cloned/om.github.root0emir.ArchLinux-GamingPerformanceTuning"
      - "cat /tmp/com.github.root0emir.ArchLinux-GamingPerformanceTuning/Settings/sysctl.conf | tee /usr/lib/sysctl.d/com-github-root0emir-archLinux-gaming-performance-tuning.conf"
-     - "rm -rfv /tmp/com.github.root0emir.ArchLinux-GamingPerformanceTuning"
+     #
+     - "git clone https://gitlab.com/vibrantleaf/systemd-curfew.git /tmp/cloned/com.gitlab.vibrantleaf.systemd-curfew"
+     - "cat /tmp/cloned/com.gitlab.vibrantleaf.systemd-curfew | tee /usr/lib/systemd/system/curfew-midnight.service"
+     #
+     - "rm -rfv /tmp/cloned"
   - type: signing
