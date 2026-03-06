@@ -7,7 +7,10 @@ on:
   push:
     paths-ignore:
       - "**.md"
+      - "**.txt"
       - "**.gitignore"
+      - ".gitlab/*"
+      - ".devcontainer/*
   pull_request:
   workflow_dispatch:
 concurrency:
