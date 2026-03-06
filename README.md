@@ -12,9 +12,13 @@ Here is the changes that I have made in this os image derived from bazzite with 
 - Added: [vibrantleaf](https://gitlab.com/vibrantleaf/)/[systemd-curfew](https://gitlab.com/vibrantleaf/systemd-curfew)
 - Enabled: NTSYNC Kernel Module by default
 
-## How to Rebase.
+## Rebase Helper.
+Sellect Your formfactor:
 <details>
-<summary>Basic</summary>
+<summary>Desktop or Laptop</summary>
+Select your Primary Video Card Vendor:
+<details>
+<summary>AMD</summary>
 <code>
 cosign verify --key https://raw.githubusercontent.com/vibrantleaf/os/refs/heads/main/cosign.pub ghcr.io/vibrantleaf/os:stable
 </code>
@@ -23,16 +27,28 @@ pkexec bootc switch ghcr.io/vibrantleaf/os:stable
 </code>
 </details>
 <details>
-<summary>Deck</summary>
+<summary>INTEL</summary>
 <code>
-cosign verify --key https://raw.githubusercontent.com/vibrantleaf/os/refs/heads/main/cosign.pub ghcr.io/vibrantleaf/os-deck:stable
+cosign verify --key https://raw.githubusercontent.com/vibrantleaf/os/refs/heads/main/cosign.pub ghcr.io/vibrantleaf/os:stable
 </code>
 <code>
-pkexec bootc switch ghcr.io/vibrantleaf/os-deck:stable
+pkexec bootc switch ghcr.io/vibrantleaf/os:stable
 </code>
 </details>
 <details>
 <summary>NVida</summary>
+Select Your Prefered Video Driver:
+<details>
+<summary>NEW Proprietary Open-Module Driver.</summary>
+<code>
+cosign verify --key https://raw.githubusercontent.com/vibrantleaf/os/refs/heads/main/cosign.pub ghcr.io/vibrantleaf/os-nvidia-open:stable
+</code>
+<code>
+pkexec bootc switch ghcr.io/vibrantleaf/os-nvidia-open:stable
+</code>
+</details>
+<details>
+<summary>OLD Proprietary Closed-Module Driver.</summary>
 <code>
 cosign verify --key https://raw.githubusercontent.com/vibrantleaf/os/refs/heads/main/cosign.pub ghcr.io/vibrantleaf/os-nvidia:stable
 </code>
@@ -41,11 +57,26 @@ pkexec bootc switch ghcr.io/vibrantleaf/os-nvidia:stable
 </code>
 </details>
 <details>
-<summary>NVidia Open Driver</summary>
+<summary>OPEN SOURCE NVK or Nouveau Driver.</summary>
 <code>
-cosign verify --key https://raw.githubusercontent.com/vibrantleaf/os/refs/heads/main/cosign.pub ghcr.io/vibrantleaf/os-nvidia-open:stable
+cosign verify --key https://raw.githubusercontent.com/vibrantleaf/os/refs/heads/main/cosign.pub ghcr.io/vibrantleaf/os:stable
 </code>
 <code>
-pkexec bootc switch ghcr.io/vibrantleaf/os-nvidia-open:stable
+pkexec bootc switch ghcr.io/vibrantleaf/os:stable
 </code>
+</details>
+</details>
+</details>
 <details>
+<summary>Handheld or HTPC</summary>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  Note. Only Handhelds and HTPCs with either an AMD or Intel Video Card is supported by this image.
+</div>
+<code>
+cosign verify --key https://raw.githubusercontent.com/vibrantleaf/os/refs/heads/main/cosign.pub ghcr.io/vibrantleaf/os-deck:stable
+</code>
+<code>
+pkexec bootc switch ghcr.io/vibrantleaf/os-deck:stable
+</code>
+</details>
