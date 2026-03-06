@@ -1,8 +1,7 @@
 # os
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="It's Tux, Linux's Penguin Mascot" width="75"/>
 
-Hello, This Repoistory is for building my own custom personal operating system.
-
+Hello, This Repoistory is for building my own custom personal operating system, for fun.
 
 ## Changes from upstream.
 Here is the changes that I have made in this os image derived from bazzite with gnome.
