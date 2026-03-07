@@ -7,6 +7,8 @@ Hello, This repository is for building my own for fun custom personal operating 
 
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/vibrantleaf/leafos/build.yaml)](https://github.com/vibrantleaf/leafos/actions/workflows/.github/workflows/build.yaml)  [![GitHub License](https://img.shields.io/github/license/vibrantleaf/leafos)](https://github.com/vibrantleaf/leafos/blob/main/LICENSE.txt)
 
+Checkout [<img src="https://www.gnome.org/img/favicon.png" alt="It's Gnome's foot logo" width="11"/>  GNOME Apps](https://apps.gnome.org/en-GB/) for a curated list of Great Applications and [<img src="https://dl.flathub.org/assets/_next/public/favicon.png" alt="It's Flathub's logo" width="11"/>  Flathub](https://flathub.org/en-GB/) The App Store for Linux.
+
 ## Changes from upstream.
 Here is the changes that I have made in this os image derived from bazzite with gnome.
 - Added: [<img src="https://github.githubassets.com/favicons/favicon.png" alt="The github Logo" width="11"/> Microsoft](https://github.com/microsoft/)/[mimalloc](https://github.com/microsoft/mimalloc/)
@@ -102,4 +104,5 @@ The Source Code for this is made aviable via the following mirrors:
 - ~~On [<img src="https://codeberg.org/assets/img/favicon.svg" alt="The codeberg Logo" width="11"/> Codebrg](https://codeberg/vibrantleaf/leafos )~~ (Soon!)
 
 ## Thanks.
-Thank you to the [<image src="https://fedoraproject.org/favicon.ico" alt="It's Fedora's F infitity logo" width="11"/> Fedora](https://fedoraproject.org/), [<img src="https://universal-blue.org/content/favicon-new.png" alt="It's Universal Blue's U Logo" width="11"/> Unversial Blue](https://universal-blue.org/) and the [<img src="https://blue-build.org/favicon.svg" alt="It's Blue Build's Duck Mascot" width="11"/> Blue Build](https://blue-build.org/) Teams for making custom personal operating system images possible.
+Thank you to the [<img src="https://fedoraproject.org/favicon.ico" alt="It's Fedora's F infitity logo" width="11"/> Fedora](https://fedoraproject.org/), [<img src="https://universal-blue.org/content/favicon-new.png" alt="It's Universal Blue's U Logo" width="11"/> Unversial Blue](https://universal-blue.org/) and the [<img src="https://blue-build.org/favicon.svg" alt="It's Blue Build's Duck Mascot" width="11"/> Blue Build](https://blue-build.org/) Teams for making custom personal operating system images possible.
+Thank you to the [<img src="https://www.gnome.org/img/favicon.png" alt="It's Gnome's foot logo" width="11"/> GNOME](https://www.gnome.org/) for making a fantastic desktop environment.
