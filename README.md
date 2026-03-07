@@ -31,7 +31,7 @@ Sellect Your formfactor:
 <summary>Desktop or Laptop</summary>
 Select Your Video Card's Vendor:
 <details>
-<summary>AMD</summary>
+<summary><img src="https://avatars.githubusercontent.com/u/430818" alt="It's Amd's logo" width="11"/> AMD</summary>
 <code>
 cosign verify --key https://raw.githubusercontent.com/vibrantleaf/leafos/refs/heads/main/cosign.pub ghcr.io/vibrantleaf/leafos:stable
 </code>
@@ -40,7 +40,7 @@ pkexec bootc switch --enforce-container-sigpolicy ghcr.io/vibrantleaf/leafos:sta
 </code>
 </details>
 <details>
-<summary>INTEL</summary>
+<summary><img src="https://avatars.githubusercontent.com/u/17888862" alt="It's Intel's logo" width="11"/> Intel</summary>
 <code>
 cosign verify --key https://raw.githubusercontent.com/vibrantleaf/leafos/refs/heads/main/cosign.pub ghcr.io/vibrantleaf/leafos:stable
 </code>
@@ -49,7 +49,7 @@ pkexec bootc switch --enforce-container-sigpolicy ghcr.io/vibrantleaf/leafos:sta
 </code>
 </details>
 <details>
-<summary>NVida</summary>
+<summary><img src="https://avatars.githubusercontent.com/u/1728152" alt="It's NVidia's logo" width="11"/> NVida</summary>
 Select Your Prefered Video Driver:
 <details>
 <summary>NEW Proprietary Open-Module Driver.</summary>
