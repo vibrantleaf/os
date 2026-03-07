@@ -1,4 +1,4 @@
-# os
+# LeafOS
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="It's Tux, Linux's Penguin Mascot" width="75"/>
 
 Hello, This repository is for building my own for fun custom personal operating system.
