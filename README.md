@@ -9,18 +9,18 @@ Hello, This repository is for building my own for fun custom personal operating 
 
 ## Changes from upstream.
 Here is the changes that I have made in this os image derived from bazzite with gnome.
-- Added: [Microsoft](https://github.com/microsoft/)/[mimalloc](https://github.com/microsoft/mimalloc/)
+- Added: [<img src="https://github.githubassets.com/favicons/favicon.png" alt="The github Logo" width="11"/> Microsoft](https://github.com/microsoft/)/[mimalloc](https://github.com/microsoft/mimalloc/)
   - Added: `ujust` script to enable and disable mimalloc globally via `LD_PRELOAD` in `/etc/environment`
-- Added: [root0emir](https://github.com/root0emir)/[ArchLinux-GamingPerformanceTuning's](https://github.com/root0emir/ArchLinux-GamingPerformanceTuning/) [sysctl.conf](https://github.com/root0emir/ArchLinux-GamingPerformanceTuning/blob/main/Settings/sysctl.conf)
-- Added: [Feral Interactive](https://github.com/FeralInteractive/)/[gamemode](https://github.com/FeralInteractive/gamemode)
-- Added: [vibrantleaf](https://gitlab.com/vibrantleaf/)/[systemd-curfew](https://gitlab.com/vibrantleaf/systemd-curfew)
-- Added (deck image only): [kodi](https://kodi.tv)
+- Added: [<img src="https://github.githubassets.com/favicons/favicon.png" alt="The github Logo" width="11"/> root0emir](https://github.com/root0emir)/[ArchLinux-GamingPerformanceTuning's](https://github.com/root0emir/ArchLinux-GamingPerformanceTuning/) [sysctl.conf](https://github.com/root0emir/ArchLinux-GamingPerformanceTuning/blob/main/Settings/sysctl.conf)
+- Added: [<img src="https://github.githubassets.com/favicons/favicon.png" alt="The github Logo" width="11"/> Feral Interactive](https://github.com/FeralInteractive/)/[gamemode](https://github.com/FeralInteractive/gamemode)
+- Added: [<img src="https://gitlab.com/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" alt="The gitlab logo" width="11"/> vibrantleaf](https://gitlab.com/vibrantleaf/)/[systemd-curfew](https://gitlab.com/vibrantleaf/systemd-curfew)
+- Added (deck image only): [<img src="https://kodi.tv/favicon.svg" alt="The Kodi logo" width="11"/> kodi](https://kodi.tv)
 - Enabled: NTSYNC Kernel Module by default
 
 ## Installation Guide.
 >Unfortunately due to the size of the `.iso`s an installer cannot be provided.
 
-Inorder to install this os you will need to rebase from a already installed [Universal Blue](https://universal-blue.org/) Image Such as [Aurrora](https://getaurora.dev/en/), [Bazzite](https://bazzite.gg/) or [Bluefin](https://projectbluefin.io/) Then follow the [rebase helper](https://github.com/vibrantleaf/os/blob/main/README.md#rebase-helper) and run the supplyed commands in the terminal from with in your Universal Blue Image Installation. after the commands hsve finnished next time you reboot your installation will switch over as if it was a just a normal over-the-air update.
+Inorder to install this os you will need to rebase from a already installed [<img src="https://universal-blue.org/content/favicon-new.png" alt="It's Universal Blue's U Logo" width="11"/> Universal Blue](https://universal-blue.org/) Image Such as [<img src="https://getaurora.dev/aurora-logo.svg" alt="It's Aurora's A Logo" width="11"/> Aurrora](https://getaurora.dev/en/), [<img src="https://bazzite.gg/favicon.ico" alt="It's Bazzite's B logo" width="11"/> Bazzite](https://bazzite.gg/) or [<img src="https://projectbluefin.io/favicons/favicon.svg" alt="It's Bluefin's Dinosaur Logo" width="11"/> Bluefin](https://projectbluefin.io/) Then follow the [rebase helper](https://github.com/vibrantleaf/os/blob/main/README.md#rebase-helper) and run the supplyed commands in the terminal from with in your Universal Blue Image Installation. after the commands hsve finnished next time you reboot your installation will switch over as if it was a just a normal over-the-air update.
 
 > WARNING: Do not use a CentOS Stream based image such as Bluefin LTS as rebassing between Fedora Atomic and CentOS Stream is unsupported.
 ### Rebase Helper.
