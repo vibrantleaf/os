@@ -95,5 +95,13 @@ pkexec bootc switch ghcr.io/vibrantleaf/os-deck:stable
 </code>
 </details>
 
+## Source Code Mirrors
+The Source Code for this is made aviable via the following mirrors:
+- On [<img src="https://github.githubassets.com/favicons/favicon.png" alt="The github Logo" width="11"/> GitHb](https:/github.com/vibrantleaf/os)
+- ~~On [<img src="https://gitlab.com/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" alt="The gitlab Logo" width="11"/> GitLab](https:/gitlab.com/vibrantleaf/os)~~ (SOON)
+- ~~On [<img src="https://codeberg.org/assets/img/favicon.svg" alt="The codeberg Logo" width="11"/> Codebrg](https:/codeberg/vibrantleaf/os)~~ (SOON)
+
+
+
 ## Thanks.
 Thank you to the [<img src="https://universal-blue.org/content/favicon-new.png" alt="It's Universal Blue's U Logo" width="11"/> Unversial Blue](https://universal-blue.org/) and the [<img src="https://blue-build.org/favicon.svg" alt="It's Blue Build's Duck Mascot" width="11"/> Blue Build](https://blue-build.org/) Teams for making custom personal operating system images possible.
